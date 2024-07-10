@@ -12,20 +12,24 @@
 
 **Proyecto *{Nombre de Proyecto}***
 
-Curso: *{Nombre de Asignatura}*
+Curso: *Inteligencia de Negocios*
 
-Docente: *{Nombre de Docente}*
+Docente: *Ing. Patrick Jose Cuadros Quiroga*
 
 Integrantes:
+- *Rivera Mendoza Jhonny*
+- *Cano Sucso Anthony Alexander*
+- *Jarro Cachi Jose Luis*
+- *Valverde Zamora Jean Pier Elias*
+- *Chambilla Zuñiga Josue*
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+
 
 **Tacna – Perú**
 
-***{Año}***
+***2024***
 
-**  
-**
+
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -68,163 +72,233 @@ Versión *{1.0}*
 
 [6. Conclusiones](#_Toc52661357)
 
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<u>Informe de Factibilidad</u>
+
+<span id="_Toc52661346" class="anchor"></span>Descripción del Proyecto
+
+1.1. Nombre del proyecto
+
+Implementación de Dashboards Financieros y Operativos para Zofratacna utilizando AWS
+
+1.2. Duración del proyecto
+
+6 meses
+
+1.3. Descripción
+
+El proyecto consiste en la creación de dashboards interactivos para Zofratacna, utilizando los servicios de Amazon Web Services (AWS). Estos dashboards se alimentarán de datos subidos en formato Excel y cubrirán aspectos financieros y operativos como gastos, costos de telefonía, ingresos, egresos, remuneraciones, partidas salariales, inversiones y órdenes de compra. La importancia del proyecto radica en mejorar la toma de decisiones, incrementar la eficiencia y reducir errores en la gestión de datos financieros y operativos.
+
+1.4. Objetivos
+
+   1.4.1 Objetivo general
+
+   Desarrollar dashboards interactivos y en tiempo real para Zofratacna utilizando AWS, con el fin de optimizar la gestión financiera y operativa de la empresa.
+
+   1.4.2 Objetivos Específicos
+
+   - Implementar una infraestructura en AWS que permita la carga y procesamiento de datos en formato Excel.
+   - Desarrollar dashboards que presenten visualmente datos de gastos, costos, ingresos, egresos, remuneraciones, partidas salariales, inversiones y órdenes de compra.
+   - Capacitar a los usuarios de Zofratacna en el uso y manejo de los dashboards.
+   - Asegurar la seguridad y confidencialidad de los datos manejados en los dashboards.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<span id="_Toc52661347" class="anchor"></span>Riesgos
 
-**<u>Informe de Factibilidad</u>**
+Riesgo técnico: Problemas con la integración de datos y la compatibilidad del formato Excel.
+Riesgo financiero: Exceder el presupuesto asignado debido a costos no previstos en la infraestructura de AWS.
+Riesgo operativo: Fallos en la capacitación de los usuarios que puedan afectar la correcta utilización de los dashboards.
+Riesgo de seguridad: Vulnerabilidades en la protección de datos sensibles.
+Riesgo de conectividad: Problemas con la conexión a internet que afecten el acceso a los servicios de AWS.
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<span id="_Toc52661348" class="anchor"></span>Análisis de la Situación Actual
 
-1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
+3.1. Planteamiento del problema
 
-    1.1. Nombre del proyecto
+Actualmente, Zofratacna maneja sus datos financieros y operativos en archivos Excel dispersos, lo que dificulta la consolidación y análisis eficiente de la información. Esta situación genera retrasos y errores en la toma de decisiones y limita la capacidad de la empresa para reaccionar oportunamente a cambios en su entorno operativo y financiero.
 
-    1.2. Duración del proyecto
+3.2. Consideraciones de hardware y software
 
-    1.3. Descripción
-
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
-
-    1.4. Objetivos
-
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
+Zofratacna dispone de computadoras y una infraestructura básica de red. Sin embargo, para el desarrollo del proyecto se requiere la adquisición de servicios en la nube de AWS, que incluye servicios como AWS S3 para almacenamiento de datos, AWS Lambda para procesamiento de datos y AWS QuickSight para la creación de dashboards. Además, es necesario contar con una conexión a internet estable y segura.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<span id="_Toc52661349" class="anchor"></span>Estudio de Factibilidad
 
-2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
+Describir los resultados que esperan alcanzar del estudio de factibilidad, las actividades que se realizaron para preparar la evaluación de factibilidad y por quien fue aprobado.
 
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
+4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática, esto implica una evaluación del hardware y software y cómo este puede cubrir las necesidades del sistema propuesto.
 
-3. <span id="_Toc52661348" class="anchor"></span>**Análisis de la Situación actual**
+Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.
 
-    3.1. Planteamiento del problema
+Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+Hardware: Se utilizarán las computadoras existentes en Zofratacna, junto con servidores virtuales en AWS.
+Software: Servicios de AWS como S3, Lambda y QuickSight serán fundamentales. También se necesitará software de navegación web actualizado para acceder a los dashboards.
+4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
 
-    3.2. Consideraciones de hardware y software
+El propósito del estudio de viabilidad económica es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos. Como se mencionó anteriormente en el estudio de factibilidad técnica, evaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática. Se plantearán los costos del proyecto. Costeo del Proyecto: Consiste en estimar los costos de los recursos humanos, materiales o consumibles y/o máquinas directos para completar las actividades del proyecto.
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+Definir los siguientes costos:
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+css
+Copiar código
+ 4.2.1. Costos Generales
 
-4. <span id="_Toc52661349" class="anchor"></span>**Estudio de
-    Factibilidad**
+ Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora, etc. Colocar tabla de costos.
 
-    Describir los resultados que esperan alcanzar del estudio de factibilidad, las actividades que se realizaron para preparar la evaluación de factibilidad y por quien fue aprobado.
+ | Item | Costo Estimado (USD) |
+ |------|----------------------|
+ | Papelería | 500 |
+ | Accesorios de oficina | 300 |
+ | Total | 800 |
 
-    4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
+ 4.2.2. Costos operativos durante el desarrollo 
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
+ Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizará el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
 
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
+ | Item | Costo Mensual (USD) |
+ |------|---------------------|
+ | Renta de oficina | 1000 |
+ | Servicios públicos | 300 |
+ | Total | 1300 |
 
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
+ 4.2.3. Costos del ambiente
 
-    4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
+ Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
-        Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
-        Se plantearán los costos del proyecto.
-        Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
+ | Item | Costo Estimado (USD) |
+ |------|----------------------|
+ | Dominio web | 50 |
+ | Infraestructura de red | 1000 |
+ | Acceso a internet | 200 |
+ | Total | 1250 |
 
-        Definir los siguientes costos:
+ 4.2.4. Costos de personal
 
-        4.2.1. Costos Generales
+ Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+ No se considerará personal para la operación y funcionamiento del sistema.
 
-        4.2.2. Costos operativos durante el desarrollo 
-        
-                Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
+ Incluir tabla que muestra los gastos correspondientes al personal.
 
-        4.2.3. Costos del ambiente
+ Indicar organización y roles. Indicar horario de trabajo del personal.
 
-                Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+ | Rol | Costo Mensual (USD) | Número de Meses | Total (USD) |
+ |-----|---------------------|-----------------|-------------|
+ | Desarrollador | 2000 | 6 | 12000 |
+ | Analista de datos | 1800 | 6 | 10800 |
+ | Total | | | 22800 |
 
-        4.2.4. Costos de personal
+ 4.2.5. Costos totales del desarrollo del sistema
 
-                Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+ Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
 
-                No se considerará personal para la operación y funcionamiento del sistema.
+ | Categoría | Costo Total (USD) |
+ |-----------|-------------------|
+ | Costos Generales | 800 |
+ | Costos Operativos | 7800 |
+ | Costos del Ambiente | 1250 |
+ | Costos de Personal | 22800 |
+ | Total | 32650 |
+4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
 
-                Incluir tabla que muestra los gastos correspondientes al personal.
+Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
 
-                Indicar organización y roles. Indicar horario de trabajo del personal.
+Beneficios:
 
-        4.2.5.  Costos totales del desarrollo del sistema
+- Mejoras en la eficiencia del área bajo estudio.
+- Reducción de errores en la gestión de datos.
+- Toma acertada de decisiones basada en datos actualizados y visuales.
+- Disponibilidad de información apropiada en tiempo real.
 
-                {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+Capacidad del cliente:
+Zofratacna tiene personal capacitado y recursos suficientes para mantener el sistema funcionando y garantizar su impacto positivo en los usuarios.
 
-    4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+Interesados:
 
-        Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
+- Gerencia de Zofratacna.
+- Departamento de Finanzas.
+- Departamento de Recursos Humanos.
+- Usuarios finales de los dashboards.
 
-    4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
+4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
 
-        Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
+Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
 
-    4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
+Seguridad y Protección de Datos:
+Asegurar el cumplimiento de las leyes de protección de datos personales y confidenciales.
 
-        Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética*
+Conducta de Negocio:
+Cumplir con las normativas de negocio y adquisiciones locales.
 
-    4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
+4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social
 
-        Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
+Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética.
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+Influencia Social:
+El proyecto contribuirá a mejorar la eficiencia operativa de Zofratacna, impactando positivamente en la economía local.
 
-5. <span id="_Toc52661356" class="anchor"></span>**Análisis Financiero**
+Clima Político:
+Evaluar cualquier influencia política que pueda afectar la implementación del proyecto.
 
-    El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas.
-    Se tiene que estimar financieramente el resultado del proyecto.
+4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
 
-    5.1. Justificación de la Inversión
+Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
 
-        5.1.1. Beneficios del Proyecto
-
-            El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades.
-            El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el  mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-            Describir beneficios tangibles e intangibles*
-            Beneficios tangibles: son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-            Beneficios intangibles: no son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
->
-            Ejemplo de beneficios:
-
-            - Mejoras en la eficiencia del área bajo estudio.
-            - Reducción de personal.
-            - Reducción de futuras inversiones y costos.
-            - Disponibilidad del recurso humano.
-            - Mejoras en planeación, control y uso de recursos.
-            - Suministro oportuno de insumos para las operaciones.
-            - Cumplimiento de requerimientos gubernamentales.
-            - Toma acertada de decisiones.
-            - Disponibilidad de información apropiada.
-            - Aumento en la confiabilidad de la información.
-            - Mejor servicio al cliente externo e interno
-            - Logro de ventajas competitivas.
-            - Valor agregado a un producto de la compañía.
-        
-        5.1.2. Criterios de Inversión
-
-            5.1.2.1. Relación Beneficio/Costo (B/C)
-
-                En base a los costos y beneficios identificados se evalúa si es factible el desarrollo del proyecto. 
-                Si se presentan varias alternativas de solución se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del > retorno de la inversión
-                El B/C si es mayor a uno, se acepta el proyecto; si el B/C es igual a uno es indiferente aceptar o rechazar el proyecto y si el B/C es menor a uno se rechaza el proyecto
-
-            5.1.2.2. Valor Actual Neto (VAN)
-            
-                Valor actual de los beneficios netos que genera el proyecto. Si el VAN es mayor que cero, se acepta el proyecto; si el VAN es igual a cero es indiferente aceptar o rechazar el proyecto y si el VAN es menor que cero se rechaza el proyecto
-
-            5.1.2.3 Tasa Interna de Retorno (TIR)*
-                Es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Si la TIR es mayor que el costo de oportunidad se acepta el proyecto, si la TIR es igual al costo de oportunidad es indiferente aceptar o rechazar el proyecto, si la TIR es menor que el costo de oportunidad se rechaza el proyecto
-
-                Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
+Impacto Ambiental:
+El uso de tecnología en la nube reduce la necesidad de infraestructura física, contribuyendo a un menor impacto ambiental.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<span id="_Toc52661356" class="anchor"></span>Análisis Financiero
 
-6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
+El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas. Se tiene que estimar financieramente el resultado del proyecto.
 
-Explicar los resultados del análisis de factibilidad que nos indican si el proyecto es viable y factible.
+5.1 Justificación de la Inversión
+
+5.1.1 Beneficios del Proyecto
+
+**Beneficios Tangibles:**
+
+| Beneficio                                             | Detalle                                                                                                   | Año 1    | Año 2    | Año 3    | Año 4    | Año 5    |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------|----------|----------|----------|----------|
+| Reducción de tiempo en generación de reportes        | Los dashboards automatizarán la generación de reportes y análisis, reduciendo el tiempo manual en un 20% | $5,000   | $5,250   | $5,513   | $5,788   | $6,078   |
+| Identificación de oportunidades de optimización      | Los dashboards permitirán identificar y reducir gastos excesivos o innecesarios en un 10% anual            | $8,000   | $8,800   | $9,680   | $10,648  | $11,713  |
+| Mejora en rendimientos de inversión                  | Mejor visibilidad de las inversiones, estimando un incremento del 15% anual                                 | $12,000  | $13,800  | $15,870  | $18,251  | $20,988  |
+| **Total Beneficios Tangibles**                       | **$25,000**                                                                                               | **$27,850** | **$31,063** | **$34,687** | **$38,779** | **$43,779** |
+
+**Beneficios Intangibles:**
+
+| Beneficio                                             | Detalle                                                                                                   | Año 1    | Año 2    | Año 3    | Año 4    | Año 5    |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------|----------|----------|----------|----------|
+| Mejora en la toma de decisiones basadas en datos     | Facilita el acceso y análisis de datos para fundamentar la toma de decisiones estratégicas                 | $10,000  | $10,000  | $10,000  | $10,000  | $10,000  |
+| Mayor transparencia y acceso a información del negocio| Centralización y accesibilidad de información, promoviendo la transparencia                                 | $8,000   | $8,000   | $8,000   | $8,000   | $8,000   |
+| Fortalecimiento de una cultura data-driven            | Promueve la cultura organizacional orientada a datos                                                          | $5,000   | $5,000   | $5,000   | $5,000   | $5,000   |
+| **Total Beneficios Intangibles**                     | **$23,000**                                                                                               | **$23,000** | **$23,000** | **$23,000** | **$23,000** | **$23,000** |
+
+5.1.2 Criterios de Inversión
+
+**Relación Beneficio/Costo (B/C):**
+
+| Año | Beneficios Totales | Costos Totales | Factor de Descuento (12%) | Beneficios Descontados | Costos Descontados |
+|-----|--------------------|----------------|---------------------------|------------------------|--------------------|
+| 0   | $0                 | $18,500        | 1                         | $0                     | $18,500            |
+| 1   | $48,000            | $4,800         | 0.89                      | $42,857                | $4,286             |
+| 2   | $52,000            | $5,040         | 0.8                       | $41,462                | $4,019             |
+| 3   | $56,420            | $5,292         | 0.71                      | $40,108                | $3,761             |
+| 4   | $61,312            | $5,557         | 0.64                      | $38,984                | $3,535             |
+| 5   | $66,736            | $5,834         | 0.57                      | $37,904                | $3,311             |
+|     |                    |                |                           | **Total**              | **$37,411**        |
+
+**Relación B/C = $201,315 / $37,411 = 5.38**
+Interpretación: Por cada dólar invertido en el proyecto, se espera obtener un beneficio de $5.38 dólares. Al ser mayor que 1, el proyecto se considera rentable.
+
+**Valor Actual Neto (VAN):**
+VAN = $201,315 - $37,411 - $18,500 = **$145,404**
+Interpretación: El proyecto genera un valor actual neto de $145,404 en un horizonte de 5 años, considerando una tasa de descuento del 12%. Al ser positivo, el proyecto se considera viable y generador de valor.
+
+**Tasa Interna de Retorno (TIR):**
+Calculando la TIR utilizando una función financiera, se obtiene:
+TIR = **157%**
+Interpretación: El proyecto ofrece una rentabilidad promedio anual del 157%, superando ampliamente el costo de oportunidad de capital del 12%. Por lo tanto, el proyecto es extremadamente atractivo financieramente y debe ser aceptado.
